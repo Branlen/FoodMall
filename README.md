@@ -1,4 +1,4 @@
-# Food-mall-web
+# food-mall-web
 <!-- <p>
   <a href="https://github.com/macrozheng/mall"><img src="http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/%E5%90%8E%E5%8F%B0%E9%A1%B9%E7%9B%AE-mall-blue.svg" alt="后台项目"></a>
   <a href="http://qm.qq.com/cgi-bin/qm/qr?k=V6xu5c12j9qhnMUNdDRzakNxRKzOxibQ"><img src="http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/QQ%E7%BE%A4-959351312-red.svg" alt="QQ群"></a>
@@ -8,7 +8,10 @@
 
 ## 项目介绍
 
-`mall-admin-web`是一个电商后台管理系统+电商页面的前端项目，基于Vue+Element实现。超级管理页面包括订单管理、商家管理、用户管理、菜单管理、咨询管理等功能。商家管理页面包括: 预约管理、排队管理、美食咨询(咨询列表、添加咨询)、更新菜品、订单管理、投诉处理、个人信息等等，电商页面包括美食分类查看、美食详情、我的订单、我的关注、我的投诉、商家咨询、美食资讯搜索，猜你喜欢、
+`food-mall-web`是一个电商后台管理系统+电商页面的前端项目，基于Vue+Element实现。
+  - 超级管理页面包括订单管理、商家管理、用户管理、菜单管理、咨询管理等功能。
+  - 商家管理页面包括: 预约管理、排队管理、美食咨询(咨询列表、添加咨询)、更新菜品、订单管理、投诉处理、个人信息等等。
+  - 电商页面包括美食分类查看、美食详情、我的订单、我的关注、我的投诉、商家咨询、美食资讯搜索，猜你喜欢、
 
 ### 项目演示
 
