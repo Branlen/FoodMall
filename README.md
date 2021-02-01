@@ -6,19 +6,14 @@
   <a href="https://gitee.com/macrozheng/mall-admin-web"><img src="http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/%E7%A0%81%E4%BA%91-%E9%A1%B9%E7%9B%AE%E5%9C%B0%E5%9D%80-orange.svg" alt="码云"></a>
 </p> -->
 
-## 前言
-
-该项目为前后端分离项目的前端部分，后端项目`mall`地址：[传送门](https://github.com/macrozheng/mall)。
-
 ## 项目介绍
 
-`mall-admin-web`是一个电商后台管理系统的前端项目，基于Vue+Element实现。主要包括商品管理、订单管理、会员管理、促销管理、运营管理、内容管理、统计报表、财务管理、权限管理、设置等功能。
+`mall-admin-web`是一个电商后台管理系统+电商页面的前端项目，基于Vue+Element实现。超级管理页面包括订单管理、商家管理、用户管理、菜单管理、咨询管理等功能。商家管理页面包括: 预约管理、排队管理、美食咨询(咨询列表、添加咨询)、更新菜品、订单管理、投诉处理、个人信息等等，电商页面包括美食分类查看、美食详情、我的订单、我的关注、我的投诉、商家咨询、美食资讯搜索，猜你喜欢、
 
 ### 项目演示
 
-项目在线演示地址：[http://www.macrozheng.com/admin/](http://www.macrozheng.com/admin/)
-
-![https://github.com/macrozheng/mall/blob/master/document/resource/mall-admin.gif](https://github.com/macrozheng/mall/blob/master/document/resource/mall-admin.gif)
+![https://github.com/Branlen/document/blob/master/resource/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20210202002612.png](https://github.com/Branlen/document/blob/master/resource/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20210202002612.png)
+![https://github.com/Branlen/document/blob/master/resource/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20210202002410.png](https://github.com/Branlen/document/blob/master/resource/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20210202002410.png)
 
 ### 技术选型
 
@@ -50,9 +45,9 @@ src -- 源码目录
     ├── home -- 首页
     ├── layout -- 通用页面加载框架
     ├── login -- 登录页
-    ├── oms -- 订单模块页面
-    ├── pms -- 商品模块页面
-    └── sms -- 营销模块页面
+    ├── adminManager -- 超级管理页面
+    ├── businessManager -- 商家管理员页面
+    └── indexPage -- 首页页面
 ```
 
 ## 搭建步骤
